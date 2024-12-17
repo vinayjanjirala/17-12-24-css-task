@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outline{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    
+}
+.row{
+    
+    display: flex; 
+    
+    
+    
+    
+}
+.box{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    transition: 0.4s ease;
+    cursor: pointer;
+   
+    
+}
+.row1>div:nth-child(even),
+.row3>div:nth-child(even),
+.row5>div:nth-child(even),
+.row7>div:nth-child(even){
+    background-color: skyblue;
+}
+.row2>div:nth-child(odd),
+.row4>div:nth-child(odd),
+.row6>div:nth-child(odd),
+.row8>div:nth-child(odd){
+    background-color: skyblue;
+}
+.box:hover{
+    font-size: 80px;
+}
+
+
